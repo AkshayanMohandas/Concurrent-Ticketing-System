@@ -1,1 +1,3 @@
 # Concurrent-Ticketing-System
+
+This project involves developing a concurrent ticketing system in Java. The system models a Ticket Machine used by passengers and serviced by technicians. It includes the implementation of various classes such as TicketMachine, Passenger, TicketPaperTechnician, and TicketTonerTechnician to handle ticket printing and resource management with appropriate synchronization. The project emphasizes concurrency, utilizing Java threads, thread groups, and monitors to ensure mutual exclusion and proper thread management. The final deliverable integrates these components to simulate a real-world ticketing system, demonstrating effective use of concurrent programming techniques.
