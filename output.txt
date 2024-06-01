@@ -1,0 +1,57 @@
+
+---------------------------------------------------------------------------------
+Welcome to the Ticket Machine! 
+
+PASSENGER1 state before start: NEW
+PASSENGER2 state before start: NEW
+PASSENGER3 state before start: NEW
+PASSENGER4 state before start: NEW
+PaperTechnician state before start: NEW
+TonerTechnician state before start: NEW
+
+There are 4 passengers 
+There are 2 technicians
+
+PASSENGER1 state: RUNNABLE
+Ticket print was success. Ticket Details ==> PASSENGER1 ==> Ticket{ticketNumber=1, passengerID='PASSENGER1', destination='Cavendish', time='10:00', ticketPurchaseCount=1}
+Attempt to toner replacement failed by TonerTechnician since required level is available ==> Toner Level: 99
+Attempt to paper replacement failed by PaperTechnician since required level is available ==> Paper Level: 99
+Ticket print was success. Ticket Details ==> PASSENGER4 ==> Ticket{ticketNumber=2, passengerID='PASSENGER4', destination='Regent', time='16:00', ticketPurchaseCount=1}
+Ticket print was success. Ticket Details ==> PASSENGER3 ==> Ticket{ticketNumber=3, passengerID='PASSENGER3', destination='Marylebone', time='16:00', ticketPurchaseCount=1}
+Ticket print was success. Ticket Details ==> PASSENGER2 ==> Ticket{ticketNumber=4, passengerID='PASSENGER2', destination='Harrow', time='14:00', ticketPurchaseCount=1}
+Attempt to paper replacement failed by PaperTechnician since required level is available ==> Paper Level: 96
+Attempt to toner replacement failed by TonerTechnician since required level is available ==> Toner Level: 96
+Ticket print was success. Ticket Details ==> PASSENGER2 ==> Ticket{ticketNumber=5, passengerID='PASSENGER2', destination='Harrow', time='14:00', ticketPurchaseCount=2}
+Attempt to paper replacement failed by PaperTechnician since required level is available ==> Paper Level: 95
+Attempt to toner replacement failed by TonerTechnician since required level is available ==> Toner Level: 95
+Ticket print was success. Ticket Details ==> PASSENGER1 ==> Ticket{ticketNumber=6, passengerID='PASSENGER1', destination='Cavendish', time='10:00', ticketPurchaseCount=2}
+Attempt to paper replacement failed by PaperTechnician since required level is available ==> Paper Level: 94
+Attempt to toner replacement failed by TonerTechnician since required level is available ==> Toner Level: 94
+Ticket print was success. Ticket Details ==> PASSENGER2 ==> Ticket{ticketNumber=7, passengerID='PASSENGER2', destination='Harrow', time='14:00', ticketPurchaseCount=3}
+Attempt to paper replacement failed by PaperTechnician since required level is available ==> Paper Level: 93
+Attempt to toner replacement failed by TonerTechnician since required level is available ==> Toner Level: 93
+Ticket print was success. Ticket Details ==> PASSENGER3 ==> Ticket{ticketNumber=8, passengerID='PASSENGER3', destination='Marylebone', time='16:00', ticketPurchaseCount=2}
+Attempt to paper replacement failed by PaperTechnician since required level is available ==> Paper Level: 92
+Attempt to toner replacement failed by TonerTechnician since required level is available ==> Toner Level: 92
+PASSENGER2 state: TIMED_WAITING
+Ticket print was success. Ticket Details ==> PASSENGER4 ==> Ticket{ticketNumber=9, passengerID='PASSENGER4', destination='Regent', time='16:00', ticketPurchaseCount=2}
+Attempt to paper replacement failed by PaperTechnician since required level is available ==> Paper Level: 91
+Attempt to toner replacement failed by TonerTechnician since required level is available ==> Toner Level: 91
+PASSENGER3 state: TIMED_WAITING
+Ticket print was success. Ticket Details ==> PASSENGER3 ==> Ticket{ticketNumber=10, passengerID='PASSENGER3', destination='Marylebone', time='16:00', ticketPurchaseCount=3}
+Attempt to paper replacement failed by PaperTechnician since required level is available ==> Paper Level: 90
+Attempt to toner replacement failed by TonerTechnician since required level is available ==> Toner Level: 90
+Ticket print was success. Ticket Details ==> PASSENGER4 ==> Ticket{ticketNumber=11, passengerID='PASSENGER4', destination='Regent', time='16:00', ticketPurchaseCount=3}
+Attempt to paper replacement failed by PaperTechnician since required level is available ==> Paper Level: 89
+Attempt to toner replacement failed by TonerTechnician since required level is available ==> Toner Level: 89
+Ticket print was success. Ticket Details ==> PASSENGER4 ==> Ticket{ticketNumber=12, passengerID='PASSENGER4', destination='Regent', time='16:00', ticketPurchaseCount=4}
+Attempt to paper replacement failed by PaperTechnician since required level is available ==> Paper Level: 88
+Attempt to toner replacement failed by TonerTechnician since required level is available ==> Toner Level: 88
+Ticket print was success. Ticket Details ==> PASSENGER3 ==> Ticket{ticketNumber=13, passengerID='PASSENGER3', destination='Marylebone', time='16:00', ticketPurchaseCount=4}
+Attempt to paper replacement failed by PaperTechnician since required level is available ==> Paper Level: 87
+Attempt to toner replacement failed by TonerTechnician since required level is available ==> Toner Level: 87
+PASSENGER4 state: TIMED_WAITING
+Ticket print was success. Ticket Details ==> PASSENGER4 ==> Ticket{ticketNumber=14, passengerID='PASSENGER4', destination='Regent', time='16:00', ticketPurchaseCount=5}
+Attempt to paper replacement failed by PaperTechnician since required level is available ==> Paper Level: 86
+Attempt to toner replacement failed by TonerTechnician since required level is available ==> Toner Level: 86
+PaperTechnician state: WAITING
